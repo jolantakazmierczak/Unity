@@ -919,6 +919,7 @@ GameObject:
   - component: {fileID: 1625445032}
   - component: {fileID: 1625445031}
   - component: {fileID: 1625445030}
+  - component: {fileID: 1625445034}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -1005,6 +1006,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &1625445034
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625445029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5000001
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!43 &1932709509
 Mesh:
   m_ObjectHideFlags: 0
