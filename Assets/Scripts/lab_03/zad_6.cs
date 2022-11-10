@@ -1,4 +1,5 @@
-using System.Collections;
+/*
+ * using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,3 +16,5 @@ public class zad_6 : MonoBehaviour
         transform.position = new Vector3(transform.position.x, newPosition, transform.position.z);
     }
 }
+
+*/
