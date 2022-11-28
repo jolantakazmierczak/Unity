@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class zad4 : MonoBehaviour
+public class LookAround : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
     public Transform playerBody;
@@ -13,7 +13,7 @@ public class zad4 : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-
+    
     void Update()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
